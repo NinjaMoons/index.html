@@ -1,0 +1,260 @@
+:root{
+    font-size: 62.5%; 
+    --back-col: #10151A;
+}
+*{
+    box-sizing: border-box;
+    background: #08080C;
+}
+body{
+
+    text-align: center;
+    background-color: var(--back-col);
+    color: #FFFFFF;
+    font-family: 'Martian Mono', monospace;
+    align-items: center;
+}
+header{
+    display: inline-flex;
+    height: 56px;
+    padding: 16px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.heading-h1 {
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-size:7.2rem; 
+    
+    line-height: 8rem;
+}
+
+.underH1{   
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 4rem;
+    font-family: PT Mono;
+    font-weight: 400;
+
+    opacity: 0.8;
+    
+}
+.firstBut{
+    background-color: #FFD600;
+    color: var(--back-col);
+    display: inline-flex;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: PT Mono;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size:2rem;
+    border-radius: 1.6rem;
+    border: 1px solid #000;
+    margin: 0 auto;
+
+
+    
+}
+.underbutton{
+    text-align: center;
+    
+    font-family: PT Mono;
+    font-size: 4rem;
+
+    font-weight: 700;
+    line-height: 5.2rem;
+}
+
+.heading-h2 {
+    color: #FFD600;
+
+    font-family: PT Mono;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 9.2rem;
+} 
+.underh2{
+    font-family: PT Mono;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.apps{color: #FFD600;
+    font-family: PT Mono;
+    font-size: 2.8rem;
+
+    font-weight: 700;
+    line-height: 3.6rem;
+}
+.container {
+    display: flex;
+    flex-wrap: nowrap; /* по умолчанию, элементы не переносятся на новую строку */
+    justify-content: center;
+}
+.underApps{
+    color: #FFD600;
+
+    text-align: center;
+    font-family: PT Mono;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+}
+.underAppsImg{
+    width: 52px;
+    height: 52px;
+    
+}
+.underAppsTx{
+    text-align: center;
+    font-family: PT Mono;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+}
+.CrTx{
+    font-family: PT Mono;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.2rem;
+}
+.stars{
+    background-image: url(/images/BG\ Stars.png);
+    min-width: 320px;
+    height: 1034px;
+}
+/*блок с Roadmap*/
+.GradientImage{
+    background-image: url(/images/gradient.png);
+
+    border-radius: 10px;
+    background-position: center;
+    
+    height: 510px;
+
+}
+.roadmap{
+    font-family: PT Mono;
+    font-size: 4rem;
+
+    font-weight: 700;
+    line-height: 7.2rem;
+}
+.underRoadmap{
+    font-family: PT Mono;
+    font-size: 2rem;
+
+    font-weight: 400;
+    line-height: 3.6rem;
+
+}
+.underRoadmap2{
+    font-family: PT Mono;
+    font-size: 2rem;
+
+    font-weight: 700;
+    line-height: 3.6rem;
+}
+.buttons{
+    color: #10151A;
+
+    font-family: PT Mono;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.6rem;
+    display: inline-flex;
+    padding: 1.6rem 4rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.6rem;
+    background: linear-gradient(180deg, #FFD600 0%, #FFB800 100%);
+
+    box-shadow: 0px 9px 44px 0px rgba(255, 214, 0, 0.19);
+}
+.buttons2{
+    color: #FFF;
+
+    font-family: PT Mono;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.6rem;
+    display: inline-flex;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.15);
+
+}
+
+
+.learnMore{
+    color: #FFF;
+
+    text-align: center;
+    text-shadow: 0px 2px 25px rgba(0, 0, 0, 0.60);
+    font-family: PT Mono;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 9.2rem;
+    position: relative;
+}
+.Undertext{
+    
+    position: absolute;
+    
+    top:0 ;
+    
+    width: 344px;
+    height: 25px;
+}
+/* здесь остановился, надо кнопки прописать*/
+#secondModule{
+    
+    border-radius:1rem ;
+    border-color: #FFD600;
+    border-width: 3px;
+    
+}
+
+
+
+.weight-400{
+    font-weight:400 ;
+}
+
+footer {
+    background-color: #FFD600;
+    color: black;
+}
+li{
+    list-style: none;
+    
+}
+.noLine{
+    text-decoration: none;
+}
+
+
+
+
+.nice{
+    
+    margin: 0 auto; /*посередине рассполагает элемент*/
+    padding: 0 16px; /*отступ*/
+
+}
+.section{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
